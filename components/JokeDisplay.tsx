@@ -52,6 +52,16 @@ export function JokeDisplay() {
       >
         <ReloadIcon className="w-8 h-8" />
       </button>
+
+      <a
+        href="https://ducksoft.ai"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-4 right-4 text-sm text-[#00ff41] hover:opacity-80 underline underline-offset-2 transition-opacity"
+        style={{ fontFamily: "Courier, 'Courier New', monospace" }}
+      >
+        Produced by Ducksoft
+      </a>
     </main>
   );
 }
